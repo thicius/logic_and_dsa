@@ -1,3 +1,5 @@
+# Problema do livro "Pense em Python" de Allen B. Downey
+
 d = {}
 
 d['palavra'] = 'word'
