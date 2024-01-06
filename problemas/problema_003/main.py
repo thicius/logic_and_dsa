@@ -1,6 +1,6 @@
 # Exercício 5 da parte 1 do livro "Python para Desenvolvedores" de Luiz Eduardo Borges
 
-s = 'temos aqui um belo texto'
+s = 'temos aqui um exemplo de texto'
 
 
 def inverso(s):
