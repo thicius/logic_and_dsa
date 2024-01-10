@@ -10,7 +10,7 @@ def uses_all(palavra, letras_obrigatorias):
     else:
         return False
 
-# Esta função recebe uma palavra e uma string de letras que se estiverem todas na palavra, retorna True
+# Esta função recebe uma palavra e uma string, que se suas letras estiverem todas na palavra, retorna True
 
 
 print(uses_all('Amazing', 'aing'))
