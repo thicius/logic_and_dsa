@@ -23,4 +23,4 @@ def avoids_(letras_proibidas):
     return n
 
 # A função acima, depende da função anterior e do arquivo contendo as palavras
-# Recebe uma string contendo certas letras, e devolve o número de palavras em 'words.txt' que não usam elas
+# Recebe uma string contendo certas letras, e devolve o número de palavras em 'words.txt' que não as usam
