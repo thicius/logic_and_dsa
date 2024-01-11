@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/exercise/47" do NepsAcademy
+# Exercício Código (OBI 2015)
+# Link "https://neps.academy/br/exercise/47" do NepsAcademy
 
 n = int(input())
 l = input().split()
