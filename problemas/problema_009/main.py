@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/exercise/324" do Neps Academy
+# Problema Garçom do Neps Academy
+# Link: https://neps.academy/br/exercise/324
 
 n = int(input())
 k = 0
