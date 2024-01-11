@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/area-do-quadrado"
+# Exercício "Área do Quadrado" do NepsAcademy
+# Link: "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/area-do-quadrado"
 
 l = int(input())
 
