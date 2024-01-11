@@ -1,4 +1,5 @@
-# Problema: "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/contagem-de-algarismos"
+# Exercício "Contagem de Algarismos" do NepsAcademy
+# Link: "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/contagem-de-algarismos"
 
 n = int(input())
 d = {}
