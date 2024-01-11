@@ -1,4 +1,5 @@
-# Problema "https://neps.academy/br/exercise/52"
+# Problema Lâmpada do Neps Academy
+# Link: https://neps.academy/br/exercise/52
 
 n = int(input())
 l = input().split()
