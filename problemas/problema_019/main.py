@@ -1,4 +1,5 @@
-# Exercícios "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/aprovado-ou-reprovado"
+# Exercício Aprovado ou Reprovado, do Neps Academy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/aprovado-ou-reprovado
 
 a, b = map(float, input().split())
 
