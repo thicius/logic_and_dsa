@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/positivo,-negativo-ou-nulo"
+# Exercício Negativo ou nulo do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/positivo,-negativo-ou-nulo
 
 X = int(input())
 
