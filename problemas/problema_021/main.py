@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/premio-do-milhao"
+# Exercício Prêmio do Milhão do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/premio-do-milhao
 
 n = int(input())
 l = 1
