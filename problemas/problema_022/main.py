@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/todos-os-divisores"
+# Exercício Todos os Divisores do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/todos-os-divisores
 
 x = int(input())
 t = ''
