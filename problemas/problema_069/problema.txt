@@ -1,0 +1,10 @@
+# Problema 14.1 do livro Pense Em Python, de Allen B. Downey
+
+Escreva uma função chamada sed que receba como argumentos uma string-
+padrão, uma string de substituição e dois nomes de arquivo; ela deve ler o
+primeiro arquivo e escrever o conteúdo no segundo arquivo (criando-o, se
+necessário). Se a string-padrão aparecer em algum lugar do arquivo, ela deve
+ser substituída pela string de substituição.
+Se ocorrer um erro durante a abertura, leitura, escrita ou fechamento dos
+arquivos, seu programa deve capturar a exceção, exibir uma mensagem de
+erro e encerrar.
