@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/raizes"
+# Exercício Raízes do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/raizes
 
 n = int(input())
 k = input().split()
