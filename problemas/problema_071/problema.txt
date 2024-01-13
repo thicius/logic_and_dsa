@@ -1,0 +1,5 @@
+# Problema 16.1 do livro "Pense em Python" de Allen B. Downey
+
+Escreva uma função chamada mul_time que receba um objeto Time e um
+número e retorne um novo objeto Time que contenha o produto do Time
+original e do número.
