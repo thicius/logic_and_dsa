@@ -1,4 +1,5 @@
-# Exercícios "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/primo"
+# Exercícios Primo do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/primo
 
 s = input().split()
 f = ''
