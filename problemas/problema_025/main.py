@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/fibonacci"
+# Exercício Fibonacci do NepsAcademy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/fibonacci
 
 n = int(input())
 
