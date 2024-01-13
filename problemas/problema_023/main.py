@@ -1,4 +1,5 @@
-# Exercício "https://neps.academy/br/course/programacao-basica-(codcad)/lesson/potencias-simples"
+# Exercício Potencia Simples do Neps Academy
+# Link: https://neps.academy/br/course/programacao-basica-(codcad)/lesson/potencias-simples
 
 x, y = map(float, input().split())
 
