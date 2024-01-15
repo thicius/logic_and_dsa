@@ -1,0 +1,4 @@
+# O método __str__
+
+Como exercício, escreva um método str da classe Point. Crie um objeto Point e
+exiba-o
