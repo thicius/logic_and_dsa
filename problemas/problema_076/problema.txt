@@ -1,0 +1,10 @@
+Como exercício, escreva um método add para Points que funcione com um objeto
+Point ou com uma tupla:
+
+Se o segundo operando for um Point, o método deve retornar um novo Point
+cuja coordenada x é a soma das coordenadas x dos operandos, e o mesmo se
+aplica às coordenadas de y.
+
+Se o segundo operando for uma tupla, o método deve adicionar o primeiro
+elemento da tupla à coordenada de x e o segundo elemento à coordenada de y,
+retornando um novo Point com o resultado.
