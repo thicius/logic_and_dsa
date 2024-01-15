@@ -1,0 +1,4 @@
+# O método __init__
+
+Como exercício, escreva um método init da classe Point que receba x e y como
+parâmetros opcionais e os relacione aos atributos correspondentes.
