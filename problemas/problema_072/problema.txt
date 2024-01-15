@@ -1,0 +1,4 @@
+# Problema usando classes e métodos
+
+Como exercício, reescreva time_to_int (de “Prototipação versus planejamento”,
+na página 234) como um método.
