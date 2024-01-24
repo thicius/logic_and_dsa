@@ -1,4 +1,4 @@
-# Problema Idade de Camila do NepsAcademy
+# Problema Idade de Camila do Neps Academy
 # Link: https://neps.academy/br/exercise/1479
 
 f = int(input())
