@@ -1,19 +1,19 @@
-# Exercício 5 da parte 1 do livro "Python para Desenvolvedores" de Luiz Eduardo Borges
+# Problema Ordenação Simples
+# Link: https://neps.academy/br/exercise/400
 
-s = 'temos aqui um exemplo de texto'
+l = []
+for i in range(10):
+    l += [int(input())]
 
+sl = sorted(l)
 
-def inverso(s):
-    lista = s.split()
-    nova_frase = ''
-    for palavra in lista:
-        for i in range(0, len(palavra)):
-            nova_frase += palavra[len(palavra)-1-i]
-        nova_frase += ' '
-    return nova_frase
+s = ''
+for number in sl:
+    s += str(number) + ' '
 
-# A ideia usada foi trasnformar a string "s" em uma lista para separar as palavras, criar uma nova frase
-# e ir adicionando cada letra de cada palavra só que começando das últimas
+inv_s = ''
+for i in range(10):
+    inv_s += str(sl[10 - i - 1]) + ' '
 
-
-print(inverso(s))
+print(s)
+print(inv_s)
