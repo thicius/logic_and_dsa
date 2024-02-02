@@ -1,17 +1,29 @@
-# Exercício 13.5 do livro "Pense em Python" do Allen B. Downey
-# Função que a partir de um histograma, devolve uma chave com probabilidade proporcional à sua frequência
+# Problema Substituir o Maior em Matriz 3x3
+# Link: https://neps.academy/br/exercise/202
 
-import random
-d = {'a': 2, 'b': 1}            # Um histograma qualquer
+m = []
 
+for i in range(9):
+    m += [int(input())]
 
-def choose_from_hist(d):
-    lista = []
-    for item in d:
-        lista += item*d[item]
-    return random.choice(lista)
+ma = max(m)
+for i in range(9):
+    if m[i] == ma:
+        m[i] = -1
 
-# A ideia foi criar uma lista onde cada chave aparece "valor" vezes e usar o random.choice
+linha1 = ''
+linha2 = ''
+linha3 = ''
 
+for i in range(3):
+    linha1 += str(m[i]) + ' '
 
-print(choose_from_hist(d))
+for i in range(3, 6):
+    linha2 += str(m[i]) + ' '
+
+for i in range(6, 9):
+    linha3 += str(m[i]) + ' '
+
+print(linha1)
+print(linha2)
+print(linha3)
