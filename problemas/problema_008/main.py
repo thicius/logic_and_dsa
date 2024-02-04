@@ -1,4 +1,4 @@
-# Problema Tira-Teima, Neps Academy
+# Problema Tira-Teima do Neps Academy
 # Link: https://neps.academy/br/exercise/220
 
 a, b = map(int, input().split())
