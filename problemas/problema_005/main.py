@@ -1,21 +1,30 @@
-# Esta função recebe um texto em formato de string (d1) junto com uma lista de palavras d2
-# E retorna em um dicionário as palavras de d1 que não estão em d2, com valor = none
+# Problema Lançamento de Dados do Neps Academy
+# Link: https://neps.academy/br/exercise/188
 
 import string
+n = int(input())
+l = []
+
+for i in range(12):
+    l += [0]
+
+faces = []
+
+for i in range(n):
+    faces += [int(input())]
+
+maximos = []
+
+for numero in faces:
+    l[numero - 1] += 1
 
 
-def subtrair(d1, d2):
-    res = {}
-    for word in d1.lower().split():
-        word = word.strip(string.punctuation + ' ')
-        if word not in d2:
-            res[word] = None
-    return print(res)
+for i in range(12):
+    if l[i] == max(l):
+        maximos += [i+1]
 
-# Exemplo:
+s = ''
+for valores in maximos:
+    s += str(valores) + ' '
 
-
-d1 = 'Minha terra tem palmeiras onde canta o sabiá; as aves, que aqui gorjeiam, não gorjeiam como lá.'
-d2 = ['minha', 'tem', 'onde', 'o', 'as', 'que', 'gorjeiam', 'como']
-
-print(subtrair(d1, d2))
+print(s)
