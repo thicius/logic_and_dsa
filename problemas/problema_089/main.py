@@ -1,14 +1,12 @@
-# Problema Tira-Teima, Neps Academy
-# Link: https://neps.academy/br/exercise/220
+def is_abecedarian(x):
+    for i in range(len(x)):
+        for j in range(len(x)):
+            if i > j and x[i] < x[j]:
+                return False
+    return True
 
-a, b = map(int, input().split())
+# This function checks whether a word is abecedarian, i. e., its letters are in alphabetical order
 
-k = 0
 
-if 0 <= a <= 432 and 0 <= b <= 468:
-    k = 1
-
-if k == 1:
-    print('dentro')
-else:
-    print('fora')
+print(is_abecedarian('coisa'))
+print(is_abecedarian('cego'))
